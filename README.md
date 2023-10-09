@@ -17,7 +17,7 @@ Have a particular look at the following files:
 ## Installation and Usage
 
 - Install packages: ``yarn`` (!)*
-- Start Shell (host): ``ng serve shell -o``
+- Start Shell (host): ``yarn run start:shell``
 - Make sure ``mfe1`` is started before ``shell`` is loaded into the browser
 
 \* Please note, you **must** use **yarn** during the beta phase of CLI 11 b/c it allows to override dependencies to force the CLI into webpack 5.
