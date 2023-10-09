@@ -1,8 +1,8 @@
 # Example for @angular-architects/module-federation
 
 This examples loads a microfrontend into a shell:
+![image](https://github.com/garyleo77/thalamus/assets/17285066/579f108a-e349-4f0e-94b2-350e27177daa)
 
-![Microfrontend Loaded into Shell](./result.png)
 
 ## Important Files
 
