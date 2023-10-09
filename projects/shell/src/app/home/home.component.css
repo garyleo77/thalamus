@@ -1,0 +1,9 @@
+
+.section {
+    display: flex;
+    .info {
+        padding-right: 50px;
+        margin-left: auto;
+        width: 293px;
+    }
+}
