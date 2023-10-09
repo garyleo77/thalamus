@@ -2,12 +2,15 @@
 
 * {
     font-family: "ProximaNova-Medium", "Proxima Nova Medium", "Proxima Nova", sans-serif;
+    color: rgb(72, 74, 76);
 }
+
 .datatable-header {
     height: unset !important;
 }
  
 .ngx-datatable {
+    margin-right: 20px;
     .datatable-header .datatable-header-cell {
         .datatable-header-cell-label {
             text-wrap: wrap;
@@ -32,14 +35,99 @@
     }
 }
 
+.title {
+    padding-top: 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.section {
+    display: flex;
+    margin-bottom: 30px;
+    .info {    
+        padding: 20px;
+        .header {
+            font-size: 18px;
+        }
+        .icon {
+            vertical-align: middle;
+        }
+        padding: 20px;
+        margin-left: auto;
+        width: 293px;
+        background-color: rgba(209, 228, 252, 1);
+    }
+    .outlet {
+        min-width: 70%;
+    }
+}
+
+
 .warning {
     padding: 20px 10px;
     margin: 20px 0;
     background-color: rgba(253, 243, 209, 1);
+    color: rgb(149, 116, 34);
+    display: flex;
+    .warning-icon {
+        margin-right: 10px;
+    }
+    .warning-label {
+        color: rgb(149, 116, 34);
+        font-weight: 700;
+    }
 }
+
 .header {
     font-weight: 700;
 }
+
+.subheader {
+    font-size: 16px;
+}
+
 .line {
     display: flex;
+}
+
+.hr-line {
+    height: 1px;
+    background-color: rgba(203, 203, 203, 1);
+}
+
+.navigation {
+    padding: 20px;
+    display: flex;
+    .button {
+        width: 50%;
+        margin-right: 10px;
+        height: 34px;
+        font-weight: 700;
+        &.go-back {
+            border-width: 0px;
+            background-color: rgba(75, 163, 165, 1);
+            border: none;
+            border-radius: 3px;
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }   color: white;
+        &.proceed {
+            background-color: rgba(255, 255, 255, 0);
+            box-sizing: border-box;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgba(75, 163, 165, 1);
+            border-radius: 3px;
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            text-align: center;
+            color: #4BA3A5;
+        }
+    }
 }

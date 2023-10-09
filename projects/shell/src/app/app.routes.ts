@@ -43,7 +43,18 @@ export const APP_ROUTES: Routes = [
             timeAvailable: '1h 30m',
             timeRequested: '2h',
             timeOverage: '30m',
-        }]},
+            },{
+              name: 'Batilda Brain',
+              timeAvailable: '1h 30m',
+              timeRequested: '2h',
+              timeOverage: '30m',
+            },{
+              name: 'Chandra Cortex',
+              timeAvailable: '1h 30m',
+              timeRequested: '2h',
+              timeOverage: '30m',
+          }]
+        },
       },
       {
         path: '',
@@ -61,7 +72,18 @@ export const APP_ROUTES: Routes = [
             timeAvailable: '30m',
             timeRequested: '1h 30m',
             timeOverage: '1h',
-        }]},
+              },{
+                name: 'Betty Cooper',
+                timeAvailable: '1h',
+                timeRequested: '1h 30m',
+                timeOverage: '30m',
+            },{
+              name: 'Veronica Lodge',
+              timeAvailable: '30m',
+              timeRequested: '45m',
+              timeOverage: '15m',
+          }]
+        },
       },
     ],
   },

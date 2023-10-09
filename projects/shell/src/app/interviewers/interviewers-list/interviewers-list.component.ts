@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
 export class InterviewersListComponent {
   rows = [];
   columns = [{
-    prop: 'name'
+    prop: 'name',
+    width: 820,
   }];
   constructor() {
     this.rows = [{ 

@@ -1,5 +1,7 @@
 .program-details {
     display: flex;
+    border: 1px solid rgb(201, 205, 209);
+    padding: 10px 20px;
     .info {
         padding-right: 90px;
     }
