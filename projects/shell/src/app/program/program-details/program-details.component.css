@@ -1,0 +1,6 @@
+.program-details {
+    display: flex;
+    .info {
+        padding-right: 90px;
+    }
+}
