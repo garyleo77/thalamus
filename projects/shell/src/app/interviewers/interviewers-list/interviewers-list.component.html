@@ -1,9 +1,20 @@
 <div class="interviewers">
-    <div class="header">
-        <p><span>Interviewers are unvavailable</span></p>
-    </div>
     <div class="text">
         <p><span>Some interviewers are not available during sessions they are assigned to.</span></p>
-        <ngx-datatable [rows]="rows" [columns]="columns" [rowHeight]="'auto'"></ngx-datatable>
+        <div class="interviewer-list">
+            <div class="outlet">
+                <ngx-datatable [rows]="rows" [columns]="columns" [rowHeight]="'auto'" [columnMode]="'forced'"></ngx-datatable>
+            </div>
+            <div class="info">
+                <p><span class="header">
+                    <img id="u35_img" class="icon" src="https://files.axshare.com/gsc/FHMAJM/dd/66/d1/dd66d1d79177430eb911a45f23c00e43/images/itinerary_wizard_warnings/vector_u11.svg?pageId=55214c1f-8406-476f-9e43-563bd5dbbc8e">
+                    How to fix this</span></p>
+                <p><span>In addition to the above suggestions, consider these options:</span></p>
+                <ul>
+                    <li><span>Add additional interviewers</span></li>
+                    <li><span>Confirm faculty availability for this event</span></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
