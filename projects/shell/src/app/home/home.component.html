@@ -1,0 +1,43 @@
+<div class="warning">
+    <div id="u107" class="ax_default shape" data-label="Vector">
+        <img id="u107_img" class="img " src="https://files.axshare.com/gsc/FHMAJM/dd/66/d1/dd66d1d79177430eb911a45f23c00e43/images/itinerary_wizard_warnings/vector_u107.svg?pageId=55214c1f-8406-476f-9e43-563bd5dbbc8e">
+        This itinerary cannot be created successfully from the criteria entered. You can review the details below for more information and guidance on how to resolve. From here you can go back to make changes (recommended), or you can proceed anyway and make manual changes in the Itinerary Builder later on.
+    </div>
+</div>
+<router-outlet name="program"></router-outlet>
+<div>
+    <div class="header">
+        <p><span>Some applicants and/or interviewers are overbooked</span></p>
+    </div>
+    <div class="text">
+        <p><span>There is not enough time to accomodate all the sessions assigned to the individuals listed below.</span></p>
+    </div>
+</div>
+<div class="section">
+    <div>
+        <router-outlet></router-outlet>
+        <router-outlet name="mfe1"></router-outlet>
+    </div>
+    <div class="info">
+        <p><span>How to fix this</span></p>
+        <p><span>You can resolve this issue by&nbsp; combining one or more of the following:</span></p>
+        <ul>
+            <li><span>Remove the individual from group sessions</span></li>
+            <li><span>Shorten the duration of group sessions</span></li>
+            <li><span>Adjust how many interview slots each individual is assigned</span></li>
+            <li><span>Confirm interview day start and end times</span></li> 
+        </ul>
+    </div>
+</div>
+<div class="section">
+    <router-outlet name="interviewers"></router-outlet>
+    <div class="info">
+        <p><span>How to fix this</span></p>
+        <p><span>In addition to the above suggestions, consider these options:</span></p>
+        <ul>
+            <li><span>Add additional interviewers</span></li>
+            <li><span>Confirm faculty availability for this event</span></li>
+        </ul>
+    </div>
+</div>
+

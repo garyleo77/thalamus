@@ -1,0 +1,16 @@
+
+
+* {
+    font-family: "ProximaNova-Medium", "Proxima Nova Medium", "Proxima Nova", sans-serif;
+}
+.warning {
+    padding: 20px 10px;
+    margin: 20px 0;
+    background-color: rgba(253, 243, 209, 1);
+}
+.header {
+    font-weight: 700;
+}
+.line {
+    display: flex;
+}
