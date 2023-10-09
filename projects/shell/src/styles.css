@@ -3,6 +3,35 @@
 * {
     font-family: "ProximaNova-Medium", "Proxima Nova Medium", "Proxima Nova", sans-serif;
 }
+.datatable-header {
+    height: unset !important;
+}
+ 
+.ngx-datatable {
+    .datatable-header .datatable-header-cell {
+        .datatable-header-cell-label {
+            text-wrap: wrap;
+        }
+        vertical-align: bottom;
+        padding: 10px;
+        border: 1px solid rgba(203, 203, 203, 1);
+        background-color:rgba(236, 239, 241, 1);
+        font-weight: 700;
+        color: #80858A;
+    }
+    .datatable-body .datatable-body-row .datatable-body-cell {
+        .datatable-body-cell-label {
+            text-wrap: wrap;
+        }
+        padding: 15px;
+        text-align: left;
+        vertical-align: top;
+        border-left: 1px solid rgba(203, 203, 203, 1);
+        border-right: 1px solid rgba(203, 203, 203, 1);
+        border-bottom: 1px solid rgba(203, 203, 203, 1);
+    }
+}
+
 .warning {
     padding: 20px 10px;
     margin: 20px 0;
